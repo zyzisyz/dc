@@ -17,7 +17,7 @@ def Get_Face_Num(imgPath):
         minNeighbors=5,
         minSize=(5, 5),
     )
-    print("发现{0}个人脸!".format(len(faces)))
+    print("{0}发现{1}张人脸!".format(imgPath, len(faces)))
     return len(faces)
 
 
