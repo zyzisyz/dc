@@ -1,0 +1,19 @@
+# ignore binary file
+*.so
+*.exe
+__pycache__
+*.pyc
+*.bak
+
+# ignore temp files and logs
+*.log
+*.temp
+
+# ignore scripts for test
+test.*
+
+# other
+.idea
+.vscode
+venv
+
