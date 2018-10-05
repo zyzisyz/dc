@@ -1,4 +1,5 @@
-
+#!/usr/bin/env python
+# coding=utf-8
 
 from html.parser import HTMLParser
 from urllib import request
